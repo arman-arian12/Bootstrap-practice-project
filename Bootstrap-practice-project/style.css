@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fixd-width{
+    width: 1270px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: aqua;
+}
+.logo-imh{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.logo-imh img{
+    width: 125px; 
+}
+
+
+
+.navigation{
+    float: right;
+    width: 50%;
+}
+.navigation ul{
+    text-align: center;
+  
+}
+.navigation ul li{
+    display: inline-block;
+    list-style-type: none;
+    border-right: 1px solid white;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 10px;
+    line-height: 35px;
+    display: block;
+    color: #fff;
+    /* border-right: 1px solid white; */
+}
+
+            /* banner-section */
+
+            .banner-section{
+                background-image:url(./img/banner.jpg) ;
+                background-size: cover;
+                background-position: center;
+                height: 50vh;
+            }
+            .banner-con{
+                text-align: center;
+               padding: 100px 0;
+            }
+            h2{
+                background-color: gray;
+                color: #fff;
+                display: inline-block;
+                padding: 12px;
+                border-radius: 5px;
+                margin-bottom: 15px;
+            }
+             h1{
+                color: #fff;
+                background-color: cadetblue;
+                width: 350px;
+                margin: auto;
+                padding: 12px;
+                border-radius: 5px;
+                font-size: 28px;
+                
+             }
+
+             /* its About-section */
+
+             .about-section{
+                background-color: #808080;
+                text-align: center;
+             }
+             .about-con{
+                padding: 10px;
+             }
+             .about-con p{
+                width: 700px;
+                margin: auto;
+                padding: 10px;
+             }
+ /* its card-section */
+             .card-section{
+                background-color: rgba(255, 255, 128, .2);
+                /* text-align: center; */
+                margin:  0 auto;
+             }
+             .card span{
+                background-color: darkcyan;
+                width: 60px;
+                line-height: 60px;
+                height: 60px;
+                color:#fff;
+                margin: 10px auto;
+                display: block;
+               
+             }
+             .card{
+                float: left;
+                width: 30%;
+                text-align: center;
+                margin-top: 20px;
+                margin-left: 8px;
+                padding: 10px;
+                border: 1px solid black;
+                box-shadow: 0 5px 5px 0px gray;
+                /* box-sizing: border-box; */
+             }
+             .card h3{
+                margin: 5px;
+             }
+            
